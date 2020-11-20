@@ -1,0 +1,19 @@
+{
+  "name": "TodoList",
+  "short_name": "TodoList",
+  "description": "一个具有本地存储,离线访问的TodoList PWA",
+  "icons": [{
+    "src": "./assets/images/128.png",
+    "sizes": "128x128",
+    "type": "image/png"
+  }, {
+    "src": "./assets/images/512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }],
+  "background_color": "#2dd6ec",
+  "theme_color": "#f39894",
+  "start_url": "/todolist--redux-hook-react/build/",
+  "display": "standalone",
+  "orientation": "portrait"
+}
